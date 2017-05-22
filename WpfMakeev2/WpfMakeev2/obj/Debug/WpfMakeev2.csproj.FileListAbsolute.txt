@@ -26,3 +26,17 @@ C:\Users\Константин\Desktop\WpfMakeev2\WpfMakeev2\obj\Debug\MainWindow
 C:\Users\Константин\Desktop\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.g.resources
 C:\Users\Константин\Desktop\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.Properties.Resources.resources
 C:\Users\Константин\Desktop\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.csproj.GenerateResource.Cache
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\WpfMakeev2.exe.config
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.exe
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.pdb
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\WpfMakeev2.exe
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\WpfMakeev2.pdb
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.csprojResolveAssemblyReference.cache
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\MainWindow.g.cs
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\App.g.cs
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2_MarkupCompile.cache
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2_MarkupCompile.lref
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\MainWindow.baml
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.g.resources
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.Properties.Resources.resources
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.csproj.GenerateResource.Cache

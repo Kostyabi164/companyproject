@@ -29,7 +29,7 @@ namespace WpfMakeev2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Константин\Desktop\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
             con.Open();
             OleDbDataAdapter da = new OleDbDataAdapter("select * from problems", con);
             OleDbCommandBuilder cb = new OleDbCommandBuilder(da);

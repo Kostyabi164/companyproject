@@ -8,7 +8,7 @@
         Title="Системный администратор предприятия" Height="600" Width="800">
     <Grid>
         <TabControl HorizontalAlignment="Left" Height="549" Margin="10,10,0,0" VerticalAlignment="Top" Width="772">
-            <TabItem Header="Управление заявками" FontSize="16">
+            <TabItem Header="Управление заявками" FontSize="16" Margin="0,0,-4,-3">
                 <Grid Background="#FF3974A6" Opacity="0.7">
                     <Button Content="Обновить" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="12" Click="Button_Click"/>
                     <Label Content="Текущее состояние заявок"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
