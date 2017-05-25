@@ -32,7 +32,7 @@ namespace WpfMakeev2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project_Kostya\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
             con.Open();
             OleDbDataAdapter da = new OleDbDataAdapter("select number as 'Номер',dateopen as 'Дата открытия',description as 'Описание проблемы',FIOIT as 'Ответственный ИТ',dateclose as 'Дата закрытия проблемы' from problems",con);
             //OleDbDataAdapter da = new OleDbDataAdapter("select * from problems", con);
@@ -59,7 +59,7 @@ namespace WpfMakeev2
         {
             if (selectitem != "0")
             {
-                cn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project_Kostya\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb";
+                cn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb";
                 cmd.Connection = cn;                
                 string q = "UPDATE problems SET dateclose='"+ DateTime.Today.ToString() + "' WHERE number='"+selectitem+"'";
                 MessageBox.Show(q);
@@ -85,7 +85,7 @@ namespace WpfMakeev2
 
         private void TabItem_Initialized(object sender, EventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project_Kostya\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
             con.Open();
             OleDbDataAdapter da = new OleDbDataAdapter("select number as 'Номер',dateopen as 'Дата открытия',description as 'Описание проблемы',fioit as 'Ответственный ИТ',dateclose as 'Дата закрытия проблемы' from problems", con);
             //OleDbDataAdapter da = new OleDbDataAdapter("select * from problems", con);
@@ -98,7 +98,7 @@ namespace WpfMakeev2
 
         private void tabComputers_Initialized(object sender, EventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project_Kostya\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
             con.Open();
             OleDbDataAdapter da = new OleDbDataAdapter("select computerID as 'Номер',compname as 'Имя компьютера',status as 'Статус',dep as 'Отдел организации',organization as 'Организация',fio as 'ФИО Сотрудника' from computers", con);
             OleDbCommandBuilder cb = new OleDbCommandBuilder(da);
@@ -112,6 +112,18 @@ namespace WpfMakeev2
         {
             AddCompoter addCompoter = new AddCompoter();
             addCompoter.Show();
+        }
+
+        private void tabLicense_Initialized(object sender, EventArgs e)
+        {
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb");
+            con.Open();
+            OleDbDataAdapter da = new OleDbDataAdapter("select licenseID as 'Номер',postavchik as 'Поставщик',proizvoditel as 'Производитель',PO as 'Наименование',count as 'Количество' from license", con);
+            OleDbCommandBuilder cb = new OleDbCommandBuilder(da);
+            DataSet ds = new DataSet();
+            da.Fill(ds, "license");
+            datagrid3.ItemsSource = ds.Tables["license"].DefaultView;
+            con.Close();
         }
     }
 }

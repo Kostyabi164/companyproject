@@ -17,12 +17,12 @@
                     <Button x:Name="ButtonCloseTicket" Content="Закрыть тикет" HorizontalAlignment="Left" Margin="220,47,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="12" Click="ButtonCloseTicket_Click"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Лицензии" FontSize="14">
+            <TabItem x:Name="tabLicense" Header="Лицензии" FontSize="14" Initialized="tabLicense_Initialized">
                 <Grid Background="#FF3974A6" Opacity="0.7">
                     <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="110" FontSize="14"/>
                     <Button Content="Удалить" HorizontalAlignment="Left" Margin="125,80,0,0" VerticalAlignment="Top" Width="110" FontSize="14"/>
                     <Button Content="Редактировать" HorizontalAlignment="Left" Margin="240,80,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.203,-0.043" FontSize="14"/>
-                    <DataGrid AlternatingRowBackground="LightGray" HorizontalAlignment="Left" Height="364" Margin="10,142,0,0" VerticalAlignment="Top" Width="738"/>
+                    <DataGrid x:Name="datagrid3" AlternatingRowBackground="LightGray" HorizontalAlignment="Left" Height="364" Margin="10,142,0,0" VerticalAlignment="Top" Width="738"/>
                     <Label Content="Лицензии программного обеспечения :" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.175,0.013"/>
                     <Label Content="Поставщик" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="txtpostavchik" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
