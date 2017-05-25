@@ -35,7 +35,7 @@
                 <Grid Background="#FF3974A6" Opacity="0.7">
                     <Button Content="Добавить" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="12" Click="Button_Click"/>
                     <Label Content="Список оборудования предприятия"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
-                    <DataGrid x:Name="datagrid1_Copy" HorizontalAlignment="Left" Height="417" Margin="10,94,0,0" VerticalAlignment="Top" Width="746"/>
+                    <DataGrid x:Name="datagrid4" HorizontalAlignment="Left" Height="417" Margin="10,94,0,0" VerticalAlignment="Top" Width="746"/>
                     <Button Content="Ремонт/перемещение" HorizontalAlignment="Left" Margin="115,47,0,0" VerticalAlignment="Top" Width="138" Height="30" FontSize="12" Click="Button_Click"/>
                     <Button Content="Удалить" HorizontalAlignment="Left" Margin="258,47,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="12" Click="Button_Click"/>
                     <Button Content="Анализ оборудования" HorizontalAlignment="Left" Margin="591,11,0,0" VerticalAlignment="Top" Width="155" Height="30" FontSize="12" Click="Button_Click"/>

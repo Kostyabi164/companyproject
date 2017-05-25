@@ -40,3 +40,7 @@ D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\MainWindow.baml
 D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.g.resources
 D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.Properties.Resources.resources
 D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\WpfMakeev2.csproj.GenerateResource.Cache
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\AddCompoter.g.cs
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\TaskWindow.g.cs
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\AddCompoter.baml
+D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\obj\Debug\TaskWindow.baml

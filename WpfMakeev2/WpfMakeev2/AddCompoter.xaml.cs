@@ -35,7 +35,7 @@ namespace WpfMakeev2
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            cn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Project_Kostya\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb";
+            cn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\gitproject\companyproject\WpfMakeev2\WpfMakeev2\bin\Debug\sysadmin.accdb";
             cmd.Connection = cn;
             if (txtComputer.Text != "")
             {                
